@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday, Sushree </title> <!-- ✅ Change NAME -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎉 Happy Birthday Sushree 🎂</h1> <!-- ✅ Change NAME -->
+
+  <div class="countdown">
+    <div class="box"><span id="years">0</span>Years</div>
+    <div class="box"><span id="months">0</span>Months</div>
+    <div class="box"><span id="days">0</span>Days</div>
+    <div class="box"><span id="hours">0</span>Hours</div>
+    <div class="box"><span id="minutes">0</span>Minutes</div>
+    <div class="box"><span id="seconds">0</span>Seconds</div>
+  </div>
+
+  <div class="gifs">
+    <!-- ✅ Replace these image URLs with your own -->
+    <img src="sus.jpg" alt="photo 1">
+    <img src="sus6.jpg" alt="photo 3">
+    <img src="sus8.jpg" alt="photo 4">
+  </div>
+
+  <div class="footer">
+    <!-- ✅ Customize your birthday message -->
+   <p>Happy Birthday Sushree...💖<br>
+     You're my guiding star who light up my world...🌟<br>
+      I’m so blessed to have you in my life... 😇<br>
+       Thank you for being you and remeber you're so much to me... 😉</p>
+  </div>
+  <!-- 🎵 Background Music -->
+<audio id="bg-music" src="sach-muchi.mp3" controls loop></audio>
+
+<!-- 💬 Reply Interface -->
+<div class="reply-box">
+  <h2>Leave a Message... </h2>
+  <textarea placeholder="Write your reply here..."></textarea>
+  <button onclick="submitReply()">Send</button>
+  <p id="response"></p>
+</div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
