@@ -23,15 +23,15 @@ h1 {
 
 .box {
   background-color: rgba(255, 255, 255, 0.2);
-  padding: 20px;
-  border-radius: 10px;
+  padding: 10px;
+  border-radius: 5px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
   width: 60px;
   font-size: 1.5rem;
 }
 
 .box span {
-  font-size: 2rem;
+  font-size: 1.5rem;
   display: block;
   font-weight: bold;
 }
